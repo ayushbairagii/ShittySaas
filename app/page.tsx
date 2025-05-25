@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { BarChart3, Keyboard, Zap, Globe, Check, X } from "lucide-react"
+import Link from "next/link"
 
 export default function LandingPage() {
   return (
@@ -364,10 +365,10 @@ export default function LandingPage() {
       <section className="py-40 bg-gray-50 ">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Still want to post your SaaS onto Reddit or Twitter?
+            Still want to contribute in this Project?
           </h2>
-          <p className="text-gray-600 mb-8">Please don't but fuck us, we don't care.</p>
-          <Button className="bg-gray-900 hover:bg-gray-800">Get roasted</Button>
+          <p className="text-gray-600 mb-8">Even if you make a PR, we care.</p>
+          <Button className="bg-gray-900 hover:bg-gray-800" ><Link href={"https://github.com/ayushbairagii/ShittySaas"}>Contribute</Link></Button>
         </div>
       </section>
 
