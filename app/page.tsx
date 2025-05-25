@@ -367,7 +367,7 @@ export default function LandingPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Still want to contribute in this Project?
           </h2>
-          <p className="text-gray-600 mb-8">Even if you make a PR, we care.</p>
+          <p className="text-gray-600 mb-8">Even if you make a Vibe Code, we care.</p>
           <Button className="bg-gray-900 hover:bg-gray-800" ><Link href={"https://github.com/ayushbairagii/ShittySaas"}>Contribute</Link></Button>
         </div>
       </section>
